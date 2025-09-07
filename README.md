@@ -1,7 +1,7 @@
 # Ashbot - A Chatbot in the making
 A chatbot that connects to an Azure SQL Database and able to answers questions!
 
-# Structure## Structure
+## Structure
 - `web/` – React frontend (Vite, TypeScript)
 - `api/` – Azure Functions backend (Node.js)
 - `sql/` – SQL schema + seed data
