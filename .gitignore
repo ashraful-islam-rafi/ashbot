@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+.build/
+.tmp/
+out/
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Env files (important: so that we don’t commit private things)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Azure Functions
+api/bin/
+api/obj/
+local.settings.json
+
+# VS Code settings (option: if we don’t want to share our IDE configs)
+.vscode/
