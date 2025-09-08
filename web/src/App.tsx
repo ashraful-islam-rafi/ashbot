@@ -31,7 +31,7 @@ export default function App() {
   return (
     <div style={{ minHeight: '100vh', display:'flex', flexDirection:'column', alignItems:'center', padding:'24px' }}>
       <div style={{ maxWidth: 720, width: '100%' }}>
-        <h1 style={{ fontSize: 24, fontWeight: 700, marginBottom: 12 }}>Org DB Chatbot</h1>
+        <h1 style={{ fontSize: 24, fontWeight: 700, marginBottom: 12 }}>Ashbot: From Databases to AI — One Chat at a Time</h1>
         <div style={{ border: '1px solid #ddd', borderRadius: 12, padding: 16, minHeight: 300 }}>
           {history.map((m, i) => (
             <div key={i} style={{ margin: '8px 0', whiteSpace: 'pre-wrap' }}>
