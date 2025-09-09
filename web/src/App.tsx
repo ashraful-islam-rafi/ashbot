@@ -31,7 +31,13 @@ export default function App() {
   return (
     <div style={{ minHeight: '100vh', display:'flex', flexDirection:'column', alignItems:'center', padding:'24px' }}>
       <div style={{ maxWidth: 720, width: '100%' }}>
-        <h1 style={{ fontSize: 24, fontWeight: 700, marginBottom: 12 }}>Ashbot: From Databases to AI — One Chat at a Time</h1>
+        <h1 style={{ fontSize: 24, fontWeight: 700, marginBottom: 4 }}>
+          Ashbot: From Databases to AI
+        </h1>
+        <h2 style={{ fontSize: 16, fontWeight: 400, color: '#555', marginBottom: 12 }}>
+          Chatting with Azure SQL, powered by Functions + SWA
+        </h2>
+
         <div style={{ border: '1px solid #ddd', borderRadius: 12, padding: 16, minHeight: 300 }}>
           {history.map((m, i) => (
             <div key={i} style={{ margin: '8px 0', whiteSpace: 'pre-wrap' }}>
