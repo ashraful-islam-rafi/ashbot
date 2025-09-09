@@ -63,6 +63,10 @@ export default function App() {
         <p style={{ marginTop: 12, fontSize: 12, color: '#666' }}>
           Tips: “what is in stock”, “gaming items”, “computers under 1500”
         </p>
+        <footer style={{ marginTop: 32, fontSize: 12, color: '#777', textAlign: 'center' }}>
+          Developed by <strong>Ashraful Islam</strong>
+        </footer>
+
       </div>
     </div>
   )
